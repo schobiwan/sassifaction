@@ -1,0 +1,3 @@
+[submodule "sassifaction/universal-IE7"]
+	path = sass/universal-IE7
+	url = https://github.com/sturobson/Universal-IE7.git

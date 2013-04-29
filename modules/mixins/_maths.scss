@@ -1,11 +1,16 @@
+// rem size
+
 @function rem($size) {
-	@return #{$size/$doc-font-size}rem
+	@return #{$size/$doc-font-size}rem;
 }
+
+// em size
 
 @function em($size) {
-	@return #{$size/$doc-font-size}em
+	@return #{$size/$doc-font-size}em;
 }
 
+// making simple squares
 
 @mixin size($width, $height: null) {
 	@if $height == null {

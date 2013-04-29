@@ -11,7 +11,7 @@
 
 /* - BASE ----------------------------- */
 
-.btn{
+@mixin btn{
     display:inline-block;
     vertical-align:middle;
     white-space:nowrap;
@@ -20,66 +20,54 @@
     cursor:pointer;
     border:none;
     margin:0;
-    padding-top:   0;
-    padding-bottom:0;
-    line-height:3;
-    height: 3em;
-    padding-right: 1em;
-    padding-left: 1em;
     background-color: $button-bg-color;
     color: $button-color;
     border-radius:4px;
     overflow:visible;
-}
-
-.btn,
-    .btn:hover,
-    .btn:active,
-    .btn:focus,
-    .btn:visited{
-        text-decoration:none;
-        color:#fff;
-    }
-
-    .btn:hover{
+    text-decoration: none;
+      &:hover, &:active, &:focus, &:visited {
+        text-decoration: none;
+      }
+      &:hover{
         box-shadow:0 0 5px rgba(0, 0, 0, 0.5);
-    }
-
-    .btn:active,
-    .btn:focus{
+      }
+      &:active, &:focus {
         outline:none;
         box-shadow:0 0 5px rgba(0, 0, 0, 0.5) inset;
-    }
-
-    .btn::-moz-focus-inner {
+      }
+      &::-moz-focus-inner {
         border: 0;
         padding: 0;
-    }
+      }
+}
+@mixin btn-norm {
+    line-height:3;
+    height: 3em;
+    padding: 0 1em;
+
+}
 
 /* - SIZES ---------------------------- */
 
-.btn--small{
-    padding-right:0.5em;
-    padding-left: 0.5em;
+@mixin btn--small{
+    padding: 0 0.5em;
     line-height:2;
     height:     2em;
 }
 
-.btn--large{
-    padding-right:1.5em;
-    padding-left: 1.5em;
+@mixin btn--large{
+    padding: 0 1.5em;
     line-height:4;
     height:     4em;
 }
 
-.btn--huge{
-    padding-right:2em;
-    padding-left: 2em;
+@mixin btn--huge{
+    padding: 0 2em;
     line-height:5;
     height:     5em;
 }
 
-.btn--full{
+@mixin btn--full{
     width:100%;
     padding-right:0;
     padding-left: 0;
@@ -88,20 +76,20 @@
 
 /* - FONT SIZES ----------------------- */
 
-.btn--alpha{
+@mixin btn--alpha{
     font-size:3rem;
 }
 
-.btn--beta{
+@mixin btn--beta{
     font-size:2rem;
 }
 
-.btn--gamma{
+@mixin btn--gamma{
     font-size:1rem;
 }
 
 
-.btn--natural{
+@mixin btn--natural{
     vertical-align:baseline;
     font-size:inherit;
     line-height:inherit;
@@ -112,38 +100,39 @@
 
 /* - FUNCTIONS ------------------------ */
 
-.btn--primary{}
-.btn--secondary{}
-.btn--tertiary{}
+@mixin btn--primary{}
+@mixin btn--secondary{}
+@mixin btn--tertiary{}
 
 
-.btn--positive{
+@mixin btn--positive{
     background-color:#4A993E;
     color:#fff;
 }
 
-.btn--negative{
+@mixin btn--negative{
     background-color:#b33630;
     color:#fff;
 }
 
-.btn--inactive,
-    .btn--inactive:hover,
-    .btn--inactive:active,
-    .btn--inactive:focus{
+@mixin btn--inactive{
+    &:hover,
+    &:active,
+    &:focus{
         background-color:#ddd;
         color:#777;
-        cursor:default; 
+        cursor:default;
         box-shadow:none;
     }
+}
 
 /* - STYLES --------------------------- */
 
 
-.btn--soft{
-    border-radius:5em; 
+@mixin btn--soft{
+    border-radius:5em;
 }
 
-.btn--hard{
+@mixin btn--hard{
     border-radius:0;
 }

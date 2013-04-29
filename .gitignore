@@ -40,3 +40,13 @@ Icon?
 
 # ZSH Cake plugin cache
 /.cake_task_cache
+
+# ignore the CSS folder
+
+css/
+
+# ignore sublime text 2 stuff
+
+/*.sublime-project
+*.sublime-workspace
+sftp-config*.json

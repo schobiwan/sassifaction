@@ -15,5 +15,10 @@
   width: 0% + $size;
 }
 
+// rectangle
 
-// triangle
+@mixin rectangle($size:'') {
+  height: 0;
+  padding-bottom: 0% + $size / 3 *2;
+  width: 0% + $size;
+}

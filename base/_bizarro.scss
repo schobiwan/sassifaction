@@ -1,5 +1,5 @@
 // -------------------------------------
-//   El Captain Bizarro
+//   El Captain Bizarro CSS Reset
 // -------------------------------------
 
 html {
@@ -8,7 +8,8 @@ html {
     -ms-text-size-adjust: 100%;
 }
 
-@-ms-viewport{width:device-width}
+@-ms-viewport{width:device-width;}
+@-o-viewport {width:device-width;}
 
 *, *:before, *:after {
     -webkit-box-sizing: border-box;

@@ -56,9 +56,10 @@
 	"buffers":
 	[
 		{
+			"file": "base/_helpers.scss",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 974,
 				"line_ending": "Unix"
 			}
 		}
@@ -66,23 +67,55 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 131.0,
+		"height": 111.0,
 		"selected_items":
 		[
-			[
-				"insta",
-				"Package Control: Install Package"
-			],
 			[
 				"remove",
 				"Package Control: Remove Package"
 			],
 			[
-				"packa",
-				"Package Control: List Packages"
+				"paca",
+				"Package Control: Remove Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
 			],
 			[
 				"pack",
+				"Package Control: Disable Package"
+			],
+			[
+				"tod",
+				"Show TODOs: Open files only"
+			],
+			[
+				"SHO",
+				"Show TODOs: Open files only"
+			],
+			[
+				"SHOW",
+				"Show TODOs: Project and open files"
+			],
+			[
+				"PACK",
+				"Package Control: List Packages"
+			],
+			[
+				"packa",
 				"Package Control: List Packages"
 			],
 			[
@@ -96,10 +129,6 @@
 			[
 				"them",
 				"Sweyla's Color Theme Generator: Generate bright!"
-			],
-			[
-				"inst",
-				"Package Control: Install Package"
 			],
 			[
 				"package",
@@ -118,20 +147,12 @@
 				"Package Control: List Packages"
 			],
 			[
-				"instal",
-				"Package Control: Install Package"
-			],
-			[
 				"insal",
 				"Package Control: Install Package"
 			],
 			[
 				"remo",
 				"Package Control: Remove Package"
-			],
-			[
-				"tod",
-				"Show TODOs: Open files only"
 			],
 			[
 				"todo",
@@ -207,15 +228,34 @@
 	},
 	"file_history":
 	[
-		"/Users/RoadRunner/Dropbox/Clients/Personal Projects/sassifaction/modules/mixins/_colors.scss",
-		"/Users/RoadRunner/Dropbox/Clients/Personal Projects/sassifaction/modules/_mixins.scss",
-		"/Users/RoadRunner/Desktop/tesc.scss",
-		"/Users/RoadRunner/Dropbox/Clients/Personal Projects/sassifaction/styles.scss",
-		"/Users/RoadRunner/Dropbox/Clients/Personal Projects/sassifaction/modules/_bizarro.scss",
+		"/Users/RoadRunner/Dropbox/Clients/Personal Projects/sassifaction/base/_bizarro.scss",
 		"/Users/RoadRunner/Dropbox/Clients/Personal Projects/sassifaction/partials/_typography.scss",
+		"/Users/RoadRunner/Dropbox/Clients/Personal Projects/sassifaction/_page.scss",
+		"/Users/RoadRunner/Dropbox/Clients/Personal Projects/sassifaction/styles.scss",
+		"/Users/RoadRunner/Dropbox/Clients/Personal Projects/sassifaction/partials/modules/_layout.scss",
+		"/Users/RoadRunner/Dropbox/Clients/Personal Projects/sassifaction/base/_beauticons.scss",
+		"/Users/RoadRunner/Dropbox/Clients/Personal Projects/sassifaction/partials/_typography.sass",
+		"/Users/RoadRunner/Dropbox/Clients/Personal Projects/sassifaction/partials/modules/_scratch.scss",
+		"/Users/RoadRunner/Dropbox/Clients/Personal Projects/sassifaction/modules/mixins/_rwd-padding-margin.scss",
+		"/Users/RoadRunner/Dropbox/Clients/Personal Projects/sassifaction/modules/mixins/_maths.scss",
+		"/Users/RoadRunner/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/RoadRunner/Dropbox/Clients/Personal Projects/sassifaction/css/styles.css",
+		"/Users/RoadRunner/Dropbox/Clients/scenes/404.html",
+		"/Users/RoadRunner/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/RoadRunner/Library/Application Support/Sublime Text 2/Packages/User/GitGutter.sublime-settings",
+		"/Users/RoadRunner/Dropbox/Clients/Personal Projects/sassifaction/styleguides.scss",
+		"/Users/RoadRunner/Dropbox/Clients/Personal Projects/sassifaction/sassifaction.sublime-workspace",
+		"/Users/RoadRunner/Dropbox/Clients/Personal Projects/sassifaction/modules/mixins/_colors.scss",
+		"/Users/RoadRunner/Dropbox/Clients/Personal Projects/sassifaction/modules/_beauticons.scss",
+		"/Users/RoadRunner/Dropbox/Clients/Personal Projects/sassifaction/modules/mixins/_triangles.scss",
+		"/Users/RoadRunner/Dropbox/Clients/Personal Projects/sassifaction/modules/mixins/_misc.scss",
+		"/Users/RoadRunner/Dropbox/Clients/Personal Projects/sassifaction/modules/mixins/_shapes.scss",
+		"/Users/RoadRunner/Dropbox/Clients/Personal Projects/sassifaction/modules/_mixins.scss",
+		"/Users/RoadRunner/Dropbox/Clients/Personal Projects/sassifaction/modules/_fonts.scss",
+		"/Users/RoadRunner/Desktop/tesc.scss",
+		"/Users/RoadRunner/Dropbox/Clients/Personal Projects/sassifaction/modules/_bizarro.scss",
 		"/Users/RoadRunner/Dropbox/Clients/2012/March/white-star/mixture.json",
 		"/Users/RoadRunner/Dropbox/Clients/2012/March/white-star/config.json",
-		"/Users/RoadRunner/Dropbox/Clients/Personal Projects/sassifaction/modules/mixins/_maths.scss",
 		"/Users/RoadRunner/Dropbox/Clients/Personal Projects/sassifaction/modules/mixins/_typography.scss",
 		"/Users/RoadRunner/Dropbox/Clients/Personal Projects/sassifaction/modules/_variables.scss",
 		"/Users/RoadRunner/Dropbox/Clients/Personal Projects/sassifaction/modules/mixins/_media-queries.scss",
@@ -223,7 +263,6 @@
 		"/Users/RoadRunner/Dropbox/Clients/Personal Projects/sassifaction/readme.md",
 		"/Users/RoadRunner/Library/Caches/com.binarynights.ForkLift2/#0/index.php",
 		"/Users/RoadRunner/Desktop/test.scss",
-		"/Users/RoadRunner/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/Users/RoadRunner/Dropbox/Clients/Personal Projects/sassifaction/.gitmodules",
 		"/Users/RoadRunner/Dropbox/Clients/Personal Projects/A Slightly Bizzare Starting Point/Sass/modules/_beauticons.scss",
 		"/Users/RoadRunner/Dropbox/Clients/Personal Projects/Universal-IE7/Universal-IE7.html",
@@ -285,7 +324,6 @@
 		"/Users/RoadRunner/Dropbox/Clients/white-star/js/vendor/modernizr.js",
 		"/Users/RoadRunner/Dropbox/Clients/white-star/mixture.json",
 		"/Users/RoadRunner/Dropbox/Clients/white-star/Sass/partials/_typography.scss",
-		"/Users/RoadRunner/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
 		"/Users/RoadRunner/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
 		"/Users/RoadRunner/Dropbox/Clients/white-star/demo.html",
 		"/Users/RoadRunner/Dropbox/Clients/white-star/css/sprites-ie7-codes.css",
@@ -317,24 +355,7 @@
 		"/Users/RoadRunner/Dropbox/snowclosures.co.uk/faq/index.html",
 		"/Users/RoadRunner/Library/Caches/com.binarynights.ForkLift2/#8/single.php",
 		"/Users/RoadRunner/Dropbox/snowclosures.co.uk/index.html",
-		"/Users/RoadRunner/Library/Caches/com.binarynights.ForkLift2/#23/new.css",
-		"/Users/RoadRunner/Library/Caches/com.binarynights.ForkLift2/#12/index.php",
-		"/Users/RoadRunner/Dropbox/Kubi/code/pago-loading-paypal.html",
-		"/Users/RoadRunner/Library/Caches/com.binarynights.ForkLift2/#20/single.php",
-		"/Users/RoadRunner/Dropbox/snowclosures.co.uk/_downloads.html",
-		"/Users/RoadRunner/Dropbox/snowclosures.co.uk/_00.txt",
-		"/Users/RoadRunner/Dropbox/Kubi/code/css/style.css",
-		"/Users/RoadRunner/Dropbox/Kubi/code/js/errors.js",
-		"/Users/RoadRunner/Dropbox/Kubi/code/register-free.html",
-		"/Users/RoadRunner/Dropbox/Kubi/code/payment-register-Stu.html",
-		"/Users/RoadRunner/Dropbox/Kubi/code/static.html",
-		"/Users/RoadRunner/Dropbox/Kubi/code/panel.html",
-		"/Users/RoadRunner/Desktop/test.html",
-		"/Users/RoadRunner/Dropbox/Kubi/code/countdown.html",
-		"/Users/RoadRunner/Dropbox/Kubi/code/home-login.html",
-		"/Users/RoadRunner/Dropbox/Kubi/code/payment-register.html",
-		"/Users/RoadRunner/Dropbox/Kubi/code/pago.html",
-		"/Users/RoadRunner/Dropbox/snowclosures.co.uk/robots.txt"
+		"/Users/RoadRunner/Library/Caches/com.binarynights.ForkLift2/#23/new.css"
 	],
 	"find":
 	{
@@ -342,9 +363,10 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 102.0,
 		"where_history":
 		[
+			"<project>",
 			""
 		]
 	},
@@ -353,6 +375,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"modules",
+			"\"\n",
+			"},\n",
+			"*.scss",
+			"class.",
 			"black",
 			"tertiary",
 			"$tertiary",
@@ -475,15 +502,10 @@
 			".subproduct li",
 			".email",
 			"#UserEmail",
-			"login",
-			"video",
-			"stwrapper",
-			"#stwrapper",
-			"600px",
-			"span 7"
+			"login"
 		],
 		"highlight": false,
-		"in_selection": false,
+		"in_selection": true,
 		"preserve_case": false,
 		"regex": false,
 		"replace_history":
@@ -502,26 +524,33 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
+					"file": "base/_helpers.scss",
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 974,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								319,
+								319
 							]
 						],
 						"settings":
 						{
+							"BracketHighlighterBusy": false,
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
 							"bh_regions":
 							[
 								"bh_regex",
@@ -565,10 +594,94 @@
 								"bh_single_quote_open",
 								"bh_single_quote_close"
 							],
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 108.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

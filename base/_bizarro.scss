@@ -8,8 +8,11 @@ html {
     -ms-text-size-adjust: 100%;
 }
 
-@-ms-viewport{width:device-width;}
-@-o-viewport {width:device-width;}
+@-webkit-viewport { width : device-width; }
+@-moz-viewport { width : device-width; }
+@-ms-viewport { width : device-width; }
+@-o-viewport { width : device-width; }
+@viewport { width : device-width; }
 
 *, *:before, *:after {
     -webkit-box-sizing: border-box;

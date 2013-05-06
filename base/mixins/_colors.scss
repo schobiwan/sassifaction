@@ -28,17 +28,31 @@
   }
 }
 
-@function transparent($color, $percentage) {
-  @return lighten($color, (1-$percentage)*5%);
+@function trans($color, $percentage, $shade) {
+ @return lighten($color, (1-$percentage)*5%);
 }
-
-@mixin trans($type, $color, $percentage) {
-  @if $type == color {
-    color: transparent($color, $percentage);
-    color: rgba($color, $percentage);
+@function transd($color, $percentage, $shade) {
+ @return darken($color, (1-$percentage)*5%);
+}
+@mixin tran($type, $color, $percentage, $shade: ligthen) {
+  @if $shade == lighten {
+    @if $type == color {
+      color: trans($color, $percentage, $shade);
+      color: rgba($color, $percentage);
+    }
+    @if $type == bg {
+      background-color: trans($color, $percentage, $shade);
+      background-color: rgba($color, $percentage);
+    }
   }
-  @if $type == bg {
-    background-color: transparent($color, $percentage);
-    background-color: rgba($color, $percentage);
+  @else {
+     @if $type == color {
+      color: transd($color, $percentage, $shade);
+      color: rgba($color, $percentage);
+    }
+    @if $type == bg {
+      background-color: transd($color, $percentage, $shade);
+      background-color: rgba($color, $percentage);
+    }
   }
 }

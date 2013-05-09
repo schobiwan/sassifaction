@@ -16,6 +16,10 @@
     @if $bottom { $bottom-right: $bottom; $bottom-left: $bottom; }
     @if $left { $top-left: $left; $bottom-left: $left; }
     @if $right { $top-right: $right; $bottom-right: $right; }
+    @if $top-left { $top-left: $top-left; }
+    @if $top-right { $top-right: $top-right; }
+    @if $bottom-left { $bottom-left: $bottom-left; }
+    @if $bottom-right { $bottom-right: $bottom-right; }
 
     // Set the radius
     $radius: $top-left $top-right $bottom-right $bottom-left;

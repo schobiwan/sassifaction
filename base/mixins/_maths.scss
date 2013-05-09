@@ -14,7 +14,7 @@
 
 @mixin remit($propery, $size){
 	#{$propery}: #{$size}px;
-	#{$propery}: $size / $doc-font-size +rem;
+	#{$propery}: #{$size/$doc-font-size}rem;
 }
 
 // making simple squares

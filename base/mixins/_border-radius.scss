@@ -1,22 +1,33 @@
 // Cross-browser border radius
 
-// @include border-radius(<values>);
+@mixin border-radius($a: false, $b: false, $c: false, $d: false, $top-left: 0, $top-right: 0, $bottom-right: 0, $bottom-left: 0, $top: false, $bottom: false, $right: false, $left: false, $radius: false) {
 
-// example
+  // Handle shorthand notation like CSS3 would
+  // You shouldn't explictly set these variables when calling the mixin
+  @if $d { $radius: $a $b $c $d; }
+  @else if $c { $radius: $a $b $c; }
+  @else if $b { $radius: $a $b; }
+  @else if $a { $radius: $a; }
 
-//	.selector {
-//  	@include border-radius(20px 10px);
-//	}
+  @else {
 
-// CSS output
+    // Target individual corners (or groups) instead of using CSS3 shorthand
+    @if $top { $top-left: $top; $top-right: $top; }
+    @if $bottom { $bottom-right: $bottom; $bottom-left: $bottom; }
+    @if $left { $top-left: $left; $bottom-left: $left; }
+    @if $right { $top-right: $right; $bottom-right: $right; }
 
-//	.selector {
-//	    -webkit-border-radius: 20px 10px;
-//	            border-radius: 20px 10px;
-//	}
+    // Set the radius
+    $radius: $top-left $top-right $bottom-right $bottom-left;
+  }
 
-
-@mixin border-radius ($values) {
-    -webkit-border-radius: $values; // iOS Safari 3.2, Android 2.1
-            border-radius: $values;
+  // Webkit, Mozilla, KHTML and standard CSS3
+  -webkit-border-radius: $radius;
+   -khtml-border-radius: $radius;
+     -moz-border-radius: $radius;
+  		  border-radius: $radius;
+  -webkit-background-clip: padding-box;
+   -khtml-background-clio: padding-box;
+   		 -moz-background-clip: padding;
+  		  background-clip: padding-box;
 }

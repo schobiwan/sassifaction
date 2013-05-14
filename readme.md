@@ -6,4 +6,4 @@
 
 
 
-Kiss my Sass.			
+Kiss my Sass.

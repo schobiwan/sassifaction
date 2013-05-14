@@ -15,55 +15,55 @@
 
 // links - colors and styles for anchor links.
 
-// errors - colors for error messages based around forms
+					// errors - colors for error messages based around forms
 
-// flow - widths, margins and padding for the layout
+					// flow - widths, margins and padding for the layout
 
-// -------------------------------------
+					// -------------------------------------
 
 
-// -- max-page-width -------------------
+					// -- max-page-width -------------------
 
-	@mixin page-width{
-		max-width: 1200px;
-		margin: 0 auto;
-	}
+						@mixin page-width{
+							max-width: 1200px;
+							margin: 0 auto;
+						}
 
-// -- document font declarations -------
+					// -- document font declarations -------
 
-	$doc-font-size: 16;
-	$doc-line-height: 24;
+						$doc-font-size: 16;
+						$doc-line-height: 24;
 
-// -- branding -------------------------
+					// -- branding -------------------------
 
-	$base-color: black;
-	$comp-color: green;
-	$third-color: red;
-	$alt-1: grey;
-	$alt-2: white;
-	$white: #FFF;
-	$black: #000;
+						$base-color: black;
+						$comp-color: green;
+						$third-color: red;
+						$alt-1: grey;
+						$alt-2: white;
+						$white: #FFF;
+						$black: #000;
 
-// -- typography -----------------------
+					// -- typography -----------------------
 
-	$body-font: Georgia, serif;
-	$header-font: $body-font;
+						$body-font: Georgia, serif;
+						$header-font: $body-font;
 
-// -- links ----------------------------
+					// -- links ----------------------------
 
-	$link-color: red;
-	$link-color-hover: darken($link-color, 10);
-	$link-color-visited: $link-color-hover;
-	$link-color-focus: darken($link-color-hover, 10);
+						$link-color: red;
+						$link-color-hover: darken($link-color, 10);
+						$link-color-visited: $link-color-hover;
+						$link-color-focus: darken($link-color-hover, 10);
 
-// -- errors & info --------------------
+					// -- errors & info --------------------
 
-	$error: red;
-	$warning: purple;
-	$success: green;
-	$information: wheat;
+						$error: red;
+						$warning: purple;
+						$success: green;
+						$information: wheat;
 
-// --- selection colours ---------------
+					// --- selection colours ---------------
 
 	$selection: $link-color;
 	$selection-text: #FFF;

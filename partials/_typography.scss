@@ -32,13 +32,13 @@ a {
 	}
 }
 
-// copy --------------------------------
+// -- copy -----------------------------
 
 p, ul, ol {
 	font-family: $body-font;
 }
 
-// headings ----------------------------
+// -- headings -------------------------
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: $header-font;
@@ -63,7 +63,7 @@ h6, .zeta{
 
 }
 
-// elements ----------------------------
+// -- elements -------------------------
 
 ::-moz-selection, ::selection {
 	background-color: $base-color;

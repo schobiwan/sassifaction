@@ -10,21 +10,42 @@ $extra-large    : 1300;
 
 // Media Query Mixin for min/max/min-device and max-device width or height
 
-@mixin mq($point, $IE9: false, $query1: min, $query2: width) {
+@mixin mq($point, $IE9: false, $query1a: min, $query1b: width, $point2: null, $query2a: max, $query2b: width) {
+  @if $point2 == null {
     @if $IE9 == true{
-        .lt-ie9 & {
-            @content;
-        }
-        @media (#{$query1}-#{$query2}: $point / $doc-font-size +em) {
-            @content;
-        }
+    // if true then give an IE conditional class 'fallback' for oldIE
+      .lt-ie9 & {
+        @content;
+      }
+      @media (#{$query1a}-#{$query1b}: $point / $doc-font-size +em) {
+        @content;
+      }
     }
 
     @else {
-        @media (#{$query1}-#{$query2}: $point / $doc-font-size +em) {
-            @content;
+      // if not true (suggest writing - false - for clarity no 'fallback'
+      @media screen and (#{$query1a}-#{$query1b}: $point / $doc-font-size +em) {
+        @content;
+      }
+    }
+  }
+  @else {
+    @if $IE9 == true{
+      // if true then give an IE conditional class 'fallback' for oldIE
+      .lt-ie9 & {
+        @content;
+      }
+      @media (#{$query1a}-#{$query1b}: $point / $doc-font-size +em) and (#{$query2a}-#{$query2b}: $point2 / $doc-font-size +em){
+        @content;
+      }
+    }
+    @else {
+      // if not true (suggest writing - false - for clarity no 'fallback'
+        @media (#{$query1a}-#{$query1b}: $point / $doc-font-size +em) and (#{$query2a}-#{$query2b}: $point2 / $doc-font-size +em){
+          @content;
         }
     }
+  }
 }
 
 // Orientation Media Query Mixin

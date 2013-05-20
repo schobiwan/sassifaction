@@ -207,6 +207,8 @@
 	},
 	"file_history":
 	[
+		"/Users/stuartrobson/Dropbox/Clients/Personal Projects/sassifaction/base/mixins/_media-queries.scss",
+		"/Users/stuartrobson/Dropbox/Clients/Personal Projects/sassifaction/.gitignore",
 		"/Users/stuartrobson/Dropbox/Clients/2012/May/siftware/js/main.js",
 		"/Users/stuartrobson/Dropbox/Clients/2012/May/siftware/index.html",
 		"/Users/stuartrobson/Dropbox/Clients/2012/May/siftware/sassifaction/partials/_typography.scss",
@@ -332,9 +334,7 @@
 		"/Users/RoadRunner/Dropbox/snowclosures.co.uk/wp-content/themes/charter/css/new.css",
 		"/Users/RoadRunner/Dropbox/Kubi/code/css/flags.css",
 		"/Users/RoadRunner/Dropbox/Kubi/code/static-login.html",
-		"/Users/RoadRunner/Dropbox/Kubi/code/home.html",
-		"/Users/RoadRunner/Dropbox/Kubi/code/js/zepto.js",
-		"/Users/RoadRunner/Dropbox/Kubi/code/js/functions.js"
+		"/Users/RoadRunner/Dropbox/Kubi/code/home.html"
 	],
 	"find":
 	{
@@ -502,6 +502,7 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
 				{

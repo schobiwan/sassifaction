@@ -70,9 +70,13 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 331.0,
+		"height": 111.0,
 		"selected_items":
 		[
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
 			[
 				"packa",
 				"Package Control: List Packages"
@@ -116,10 +120,6 @@
 			[
 				"pacl",
 				"Package Control: List Packages"
-			],
-			[
-				"instal",
-				"Package Control: Install Package"
 			],
 			[
 				"insal",
@@ -190,7 +190,7 @@
 				"Indentation: Convert to Tabs"
 			]
 		],
-		"width": 463.0
+		"width": 602.0
 	},
 	"console":
 	{
@@ -207,7 +207,14 @@
 	},
 	"file_history":
 	[
+		"/Users/stuartrobson/Dropbox/Clients/Personal Projects/sassifaction/base/mixins/_flexbox.scss",
+		"/Users/stuartrobson/Dropbox/Clients/Personal Projects/sassifaction/base/_mixins.scss",
+		"/Users/stuartrobson/Dropbox/Clients/Personal Projects/sassifaction/base/mixins/_misc.scss",
+		"/Users/stuartrobson/Dropbox/Clients/Personal Projects/sassifaction/base/mixins/_shapes.scss",
+		"/Users/stuartrobson/Dropbox/Clients/Personal Projects/sassifaction/base/mixins/_typography.scss",
+		"/Users/stuartrobson/Dropbox/Clients/Personal Projects/sassifaction/base/mixins/_rwd-padding-margin.scss",
 		"/Users/stuartrobson/Dropbox/Clients/Personal Projects/sassifaction/base/mixins/_media-queries.scss",
+		"/Users/stuartrobson/Dropbox/Clients/Personal Projects/sassifaction/base/_variables.scss",
 		"/Users/stuartrobson/Dropbox/Clients/Personal Projects/sassifaction/.gitignore",
 		"/Users/stuartrobson/Dropbox/Clients/2012/May/siftware/js/main.js",
 		"/Users/stuartrobson/Dropbox/Clients/2012/May/siftware/index.html",
@@ -327,14 +334,7 @@
 		"/Users/RoadRunner/Dropbox/Kubi/code/countdown.html",
 		"/Users/RoadRunner/Dropbox/Kubi/code/home-login.html",
 		"/Users/RoadRunner/Dropbox/Kubi/code/payment-register.html",
-		"/Users/RoadRunner/Dropbox/Kubi/code/pago.html",
-		"/Users/RoadRunner/Dropbox/snowclosures.co.uk/robots.txt",
-		"/Users/RoadRunner/Library/Caches/com.binarynights.ForkLift2/#29/gridview.php",
-		"/Users/RoadRunner/Dropbox/snowclosures.co.uk/wp-content/themes/charter/css/main.css",
-		"/Users/RoadRunner/Dropbox/snowclosures.co.uk/wp-content/themes/charter/css/new.css",
-		"/Users/RoadRunner/Dropbox/Kubi/code/css/flags.css",
-		"/Users/RoadRunner/Dropbox/Kubi/code/static-login.html",
-		"/Users/RoadRunner/Dropbox/Kubi/code/home.html"
+		"/Users/RoadRunner/Dropbox/Kubi/code/pago.html"
 	],
 	"find":
 	{
